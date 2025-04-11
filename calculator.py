@@ -27,3 +27,4 @@ if __name__ == "__main__":
         print("Error:", e)
 # Added ^ operator
 # Added hex calculator mode
+# Feature: Modulus operator added
