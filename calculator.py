@@ -26,3 +26,5 @@ if __name__ == "__main__":
     except Exception as e:
         print("Error:", e)
 # Added ^ operator
+# Added hex calculator mode
+# Feature: Modulus operator added
