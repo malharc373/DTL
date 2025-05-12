@@ -1,0 +1,50 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\title{README: Factorial Calculator}
+\author{}
+\date{}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{gray!10},
+  frame=single,
+  breaklines=true,
+  showstringspaces=false
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Description}
+This shell script calculates the factorial of a non-negative integer provided by the user.
+
+\section*{Features}
+\begin{itemize}
+  \item Validates the input to ensure it is a non-negative integer.
+  \item Uses a \texttt{for} loop to compute the factorial.
+\end{itemize}
+
+\section*{Usage}
+\begin{lstlisting}[language=bash]
+chmod +x factorial.sh
+./factorial.sh
+\end{lstlisting}
+
+\section*{Sample Output}
+\begin{lstlisting}
+Enter a number: 5
+Factorial of 5 is 120
+\end{lstlisting}
+
+\section*{Requirements}
+\begin{itemize}
+  \item Bash shell
+\end{itemize}
+
+\end{document}
+
